@@ -1,3 +1,30 @@
 p {
     color:red;
 }
+
+body {
+   background-image: url("https://farm7.static.flickr.com/6008/6017628475_fb8fa945d4_b.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#logo{
+    margin: 10px;
+    padding: 50px;
+}
+
+li,#logo,#nav-bar {
+    display:inline;
+}
+#nav-container{
+    background-color: #31493c;
+    color: #93a29b;
+    height: 70px;
+}
+
+li a{
+    color: #93a29b;
+    border: #93a29b 1px solid;
+    border-radius: 2px;
+    padding: 5px 10px;
+}
